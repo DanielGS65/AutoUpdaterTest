@@ -36,13 +36,15 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(322, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "AutoUpdater V0.0.0.3";
+            this.label1.Text = "AutoUpdater V1.0.0.2";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(271, 179);
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(100)))));
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textBox1.Location = new System.Drawing.Point(231, 175);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 26);
+            this.textBox1.Size = new System.Drawing.Size(360, 34);
             this.textBox1.TabIndex = 1;
             // 
             // Form1
@@ -56,6 +58,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
